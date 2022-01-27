@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:background="@color/Orange"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:hint="Enter Name(MInimun 3 charachters)"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Enter your Email Address"
+        android:inputType ="text"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:layout_below="@+id/name"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:layout_below="@+id/mail"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/Dileveryaddress"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Dilevery adress"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:layout_below="@+id/phone"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/txtpin"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/Dileveryaddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@color/white"
+        android:hint="Enter Pin"
+        android:textSize="15sp"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:maxLength="4"/>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_below="@id/txtpin"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="Register"
+        android:textSize="15sp"
+        android:background="@color/Red"/>
+
+
+
+
+
+
+</RelativeLayout>
