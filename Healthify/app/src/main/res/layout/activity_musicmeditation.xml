@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    tools:context=".Musicmeditation2">
+
+    <TextView
+        android:id="@+id/meditationpage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUSIC MEDITATION"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/musicmeditationcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just select one of these musics and close your eyes and relax."
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_below="@+id/meditationpage2"
+
+        ></TextView>
+
+
+    <Button
+        android:id="@+id/meditatebutton11"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:background="@drawable/buddha"
+        android:layout_below="@+id/musicmeditationcontent"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="70sp"></Button>
+
+    <Button
+        android:id="@+id/meditatebutton12"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:background="@drawable/forest"
+        android:layout_toRightOf="@+id/meditatebutton11"
+        android:layout_below="@+id/musicmeditationcontent"
+
+        android:layout_marginTop="70sp"></Button>
+    <Button
+        android:id="@+id/meditatebutton13"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:background="@drawable/night2"
+        android:layout_below="@+id/meditatebutton12"
+        android:layout_marginLeft="50sp"></Button>
+    <Button
+        android:id="@+id/meditatebutton14"
+        android:layout_width="150sp"
+        android:background="@drawable/image"
+        android:layout_height="150sp"
+        android:layout_below="@+id/meditatebutton12"
+        android:layout_toRightOf="@+id/meditatebutton13">
+
+    </Button>
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/meditatebutton14"
+        android:text="Stop Music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        />
+
+
+
+
+</RelativeLayout>

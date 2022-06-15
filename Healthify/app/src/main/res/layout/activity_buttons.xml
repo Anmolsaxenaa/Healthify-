@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buttons">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Click on your choice"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:background="@color/black">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/sessionbtn"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="@drawable/sea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="@string/Session"
+        ></Button>
+
+    <Button
+        android:id="@+id/meditatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="@drawable/night"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sessionbtn"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/meditation"
+        ></Button>
+    <Button
+        android:id="@+id/exercisebtn"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="@drawable/exercise"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/meditatebtn"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="Exercises"
+        ></Button>
+
+    <Button
+        android:id="@+id/pharmabtn"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:background="@drawable/pharma2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/exercisebtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Pharmaceutical Ways"
+        ></Button>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

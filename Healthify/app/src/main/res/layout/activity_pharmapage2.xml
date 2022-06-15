@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pharma"
+    tools:context=".pharmapage2">
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="180sp"
+        android:layout_margin="20sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listheader="Tranculizers:"
+        tools:listitem="Selective serotonin reuptake inhibitors (SSRIs)
+    Serotonin and norepinephrine reuptake inhibitors (SNRIs)
+    Tricyclic antidepressants (TCAs)
+    Tetracyclic antidepressant
+    Dopamine reuptake blocker
+    5-HT1A receptor antagonist
+    5-HT2 receptor antagonists
+    5-HT3 receptor antagonist
+    Monoamine oxidase inhibitors (MAOIs)
+    Noradrenergic antagonist"
+        >
+
+
+    </ListView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

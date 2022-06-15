@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeScreen"
+    android:background="#ff5722">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:layout_marginLeft="30sp"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/greetings"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/greetings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:text="Healthify, as the name suggests:works on mental health related issues. This app will provide you a full guidence about mental health and the ways you can work on your own way on your mental health. Click on 'Lets Start' button whenever ready to begin."
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/greetings2"
+        android:layout_below="@+id/greetings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:text="Wishing you good health and a lot of fun..."
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+
+
+        android:textSize="20sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/welcomepagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greetings2"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="40sp"
+        android:text="@string/ButtonText"
+        android:textColor="#ffffff"
+        android:background="#2c2c2c"
+        style="@style/Base.CardView">
+
+
+    </Button>
+
+
+</RelativeLayout>

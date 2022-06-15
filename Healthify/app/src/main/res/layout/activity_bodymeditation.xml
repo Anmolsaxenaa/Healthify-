@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    tools:context=".Bodymeditation">
+
+    <TextView
+        android:id="@+id/bodymeditationpage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BODY MEDITATION"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        ></TextView>
+    <TextView
+        android:id="@+id/bodymeditationcontent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The body scan is one of the most effective ways to begin a mindfulness meditation practice. The purpose is to tune in to your body—to reconnect to your physical self—and notice any sensations you’re feeling without judgement. "
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_below="@+id/bodymeditationpage1"
+        android:justificationMode="inter_word"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/bodymeditationcontent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just sit in the postition shown in the image and focus on the energy on the particular dots one by one and relax, "
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_below="@+id/bodymeditationcontent1"
+        android:justificationMode="inter_word"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bodymeditationcontent2"
+
+        android:src="@drawable/bodymeditation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:alpha="0.7"
+        ></ImageView>
+
+</RelativeLayout>

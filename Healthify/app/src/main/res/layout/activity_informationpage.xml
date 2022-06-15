@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Informationpage"
+    android:background="@drawable/sunset">
+
+
+        <TextView
+            android:id="@+id/stresstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stress"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="40sp"
+            />
+
+        <TextView
+            android:id="@+id/stressinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stress is a feeling of emotional or physical tension. It can come from any event or thought that makes you feel frustrated, angry, or nervous. Stress is your body's reaction to a challenge or demand. In short bursts, stress can be positive, such as when it helps you avoid danger or meet a deadline"
+            android:textSize="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_below="@+id/stresstxt"
+            android:justificationMode="inter_word"
+            />
+        <TextView
+            android:id="@+id/anxietytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anxiety"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="40sp"
+            android:layout_below="@+id/stressinfo"
+            />
+
+
+        <TextView
+            android:id="@+id/anxietyinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A big event or a buildup of smaller stressful life situations may trigger excessive anxiety — for example, a death in the family, work stress or ongoing worry about finances. Personality. People with certain personality types are more prone to anxiety disorders than others are. Other mental health disorders."
+            android:textSize="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_below="@+id/anxietytxt"
+            android:justificationMode="inter_word"
+            />
+
+
+
+
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#ff5722"
+        android:text="@string/ButtonText2"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/sea"
+    android:layout_height="match_parent"
+    tools:context=".Sessionpage5">
+
+
+
+    <TextView
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+        android:text="These activities will help you in relieving your stress but you have to be very positive during the process."
+        android:textSize="30sp">
+
+    </TextView>
+
+
+
+
+    <Button
+        android:id="@+id/returnmainmenu"
+        android:layout_width="140sp"
+        android:layout_height="60sp"
+        android:text="Return to main menu"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/last"
+        android:layout_marginTop="110sp"
+        android:textColor="@color/white"
+        android:background="@color/black_overlay"
+        ></Button>
+
+
+
+
+</RelativeLayout>

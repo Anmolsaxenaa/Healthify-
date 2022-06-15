@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    tools:context=".Meditating">
+
+    <TextView
+        android:id="@+id/meditationpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meditation"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+       android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/meditateinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meditationpage"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:text="Meditation originally was meant to help deepen understanding of the sacred and mystical forces of life. These days, meditation is commonly used for relaxation and stress reduction. Meditation is considered a type of mind-body complementary medicine. Meditation can produce a deep state of relaxation and a tranquil mind."
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:layout_margin="20sp"
+        ></TextView>
+
+
+
+        <TextView
+            android:id="@+id/meditateinfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/meditateinfo"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:text="Click on one of these buttons:"
+            android:textColor="@color/white"
+            android:layout_margin="20sp"></TextView>
+
+
+
+    <Button
+        android:id="@+id/meditatebutton1"
+        android:layout_width="350sp"
+        android:layout_height="100sp"
+        android:layout_below="@+id/meditateinfo2"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Body Meditation"
+        android:background="@drawable/meditation"
+        ></Button>
+
+
+    <Button
+        android:id="@+id/meditatebutton2"
+        android:layout_width="350sp"
+        android:layout_height="100sp"
+        android:layout_below="@+id/meditatebutton1"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        android:text="Music Meditation"
+        android:background="@drawable/musicmeditation"
+        ></Button>
+
+
+
+</RelativeLayout>

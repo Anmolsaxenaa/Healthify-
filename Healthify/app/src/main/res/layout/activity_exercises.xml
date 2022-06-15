@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercise"
+
+    tools:context=".Exercises">
+
+    <TextView
+        android:id="@+id/exercisepage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/exercisepagecontent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercisepage1"
+        android:layout_centerHorizontal="true"
+        android:text="Do stressful days have you reaching for a pint of ice cream? If so, you’re giving your body a double whammy of bad. Start exercising instead; it’s a powerful stress reliever. Here are 9 workouts to tame that tension. Plus, do you know the symptoms of stress? "
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/exercisepagecontent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercisepagecontent1"
+        android:text="Do follow these exercises:"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:textColor="@color/white"
+        ></TextView>
+
+    <Button
+        android:id="@+id/exercisepagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Exercises"
+        android:layout_below="@id/exercisepagecontent2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90sp"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked"
+        ></Button>
+
+
+
+
+
+
+</RelativeLayout>

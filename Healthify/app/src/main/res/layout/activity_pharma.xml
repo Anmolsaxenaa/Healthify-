@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pharma"
+    tools:context=".pharma">
+
+
+    <TextView
+        android:id="@+id/pharmapage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tranculizers"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/pharmapagecontent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pharmapage1"
+        android:layout_centerHorizontal="true"
+        android:text="A tranquilizer refers to a drug which is designed for the treatment of anxiety, fear, tension, agitation, and disturbances of the mind, specifically to reduce states of anxiety and tension."
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        ></TextView>
+
+
+
+    <TextView
+        android:id="@+id/pharmapagecontent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pharmapagecontent1"
+        android:layout_centerHorizontal="true"
+        android:text="This is not a recommended way."
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/pharmapagecontent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pharmapagecontent2"
+        android:layout_centerHorizontal="true"
+        android:text="Proceed to see buying otpitons:"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/black"
+        ></TextView>
+
+    <Button
+        android:id="@+id/pharmapagebtn"
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:text="Proceed"
+        android:layout_below="@id/pharmapagecontent2"
+        android:layout_centerHorizontal="true"
+        android:background="#ef9a9a"
+        android:layout_marginTop="90sp"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked"
+        ></Button>
+
+
+
+
+
+</RelativeLayout>

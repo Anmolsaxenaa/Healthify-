@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    tools:context=".Sessionpage4">
+
+    <TextView
+        android:id="@+id/step3txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEP 3"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/liedown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/step3txt"
+            android:layout_margin="20sp"
+            android:layout_marginTop="20sp"
+            android:justificationMode="inter_word"
+            android:text="Now lie down on your back and close your eyes."
+            android:textSize="30sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/liedown2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liedown"
+            android:layout_margin="20sp"
+            android:layout_marginTop="20sp"
+            android:justificationMode="inter_word"
+            android:text="Now try to feel a positive energy that is coming through your toes then your ankles then your knees then yiur abdomen and then it paases through both your hands from your shoulder to your nails. Then that energy enters your neck and it travels through your face and then stops at the point between your eyebrows."
+            android:textSize="30sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/liedown3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liedown2"
+            android:layout_margin="20sp"
+            android:layout_marginTop="20sp"
+            android:justificationMode="inter_word"
+            android:text="Feel that positive energy betwenn your eyebrows is very positive and it circulates with your blood into your mind and as that circulates, you will feel that your stress it becoming weak and you have a smile on your face."
+            android:textSize="30sp"></TextView>
+
+        <TextView
+            android:id="@+id/liedown4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liedown3"
+            android:layout_margin="20sp"
+            android:layout_marginTop="20sp"
+            android:justificationMode="inter_word"
+            android:text="As that energy flows through your body it relaxes your all the muscels and you will fees either very much light or very much weighted."
+            android:textSize="30sp"></TextView>
+
+        <Button
+            android:id="@+id/sessionbutton4"
+            android:layout_width="140sp"
+            android:layout_height="60sp"
+            android:text="Next"
+            android:layout_below="@+id/liedown4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110sp"
+            android:textColor="@color/white"
+            android:background="@color/black_overlay"
+            ></Button>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

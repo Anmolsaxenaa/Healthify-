@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Healthify</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Stresshack</string>
+    <string name="ButtonText">Lets Start</string>
+    <string name="ButtonText2">Continue</string>
+    <string name="meditation">Meditate</string>
+    <string name="Session">Take a Healthify session</string>
+</resources>

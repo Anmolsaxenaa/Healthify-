@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    tools:context=".Sessionpage1">
+
+    <TextView
+        android:id="@+id/dothese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do these before you start the session:"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="40sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Sit in a silent place"
+        android:layout_below="@+id/dothese"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+
+        ></TextView>
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Plug in your earbuds/earphones headphones not recommended."
+        android:layout_below="@+id/s1"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+
+        android:justificationMode="inter_word"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Sit on the floor in a lowseat position."
+        android:layout_below="@+id/s2"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+        ></TextView>
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the button whenever ready"
+        android:layout_below="@+id/s3"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="40sp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+   <Button
+       android:id="@+id/sessionbutton1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Start Session"
+       android:layout_marginTop="500sp"
+       android:layout_centerHorizontal="true">
+
+   </Button>
+
+</RelativeLayout>

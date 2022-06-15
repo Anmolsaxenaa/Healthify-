@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    tools:context=".sessionpage3">
+
+
+
+    <TextView
+        android:id="@+id/step2txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEP 2"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"></TextView>
+
+
+
+    <TextView
+        android:id="@+id/deepbreath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close your eyes and take a deep breath."
+        android:layout_below="@+id/step2txt"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+        android:layout_margin="20sp"
+        android:textSize="30sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/deepbreath2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat breathing for about 10-15 times."
+        android:layout_below="@+id/deepbreath"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+        android:layout_margin="20sp"
+        android:textSize="30sp">
+
+    </TextView>
+    <Button
+        android:id="@+id/sessionbutton3"
+        android:layout_width="140sp"
+        android:layout_height="60sp"
+        android:text="Next"
+        android:layout_below="@+id/deepbreath2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110sp"
+        android:textColor="@color/white"
+        android:background="@color/black_overlay"
+        ></Button>
+
+
+</RelativeLayout>

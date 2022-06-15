@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    tools:context=".sessionpage2">
+
+
+    <TextView
+        android:id="@+id/step1txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEP 1"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close your eyes for 2 minutes and feel the surroundings aroud you"
+        android:layout_below="@+id/step1txt"
+        android:layout_marginTop="20sp"
+        android:justificationMode="inter_word"
+        android:layout_margin="20sp"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Your Eyes."
+        android:layout_below="@+id/close"
+        android:justificationMode="inter_word"
+        android:layout_margin="20sp"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/sessionbutton2"
+        android:layout_width="140sp"
+        android:layout_height="60sp"
+        android:text="Next"
+        android:layout_below="@+id/open"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110sp"
+        android:textColor="@color/white"
+        android:background="@color/black_overlay"
+        ></Button>
+</RelativeLayout>
